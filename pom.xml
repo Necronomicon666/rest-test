@@ -10,7 +10,6 @@
 	<description>An application secured with Keycloak</description>
 	<properties>
 		<version.keycloak>13.0.0</version.keycloak>
-		<version.tomcat>10.0.14</version.tomcat>
 		<surefire.version>3.0.0-M5</surefire.version>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
