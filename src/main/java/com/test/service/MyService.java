@@ -22,7 +22,7 @@ public class MyService {
 	@Produces(MediaType.TEXT_PLAIN)
 	public String hello(){
 		KeycloakPrincipal principal = (KeycloakPrincipal) context.getUserPrincipal();
-		String output = "Hello "+principal.getKeycloakSecurityContext().getToken().getPreferredUsername();
+		String output = "Hello2 "+principal.getKeycloakSecurityContext().getToken().getPreferredUsername();
 		return output;
 	}
 
